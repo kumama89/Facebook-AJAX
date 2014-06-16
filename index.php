@@ -4,7 +4,7 @@
     <head>
           <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
           <title>Facebook - Login W/ AJAX</title>
-          <link rel="stylesheet" href="style.css"/>
+          <link rel="stylesheet" href="assets/css/style.css"/>
     </head>
      <body>
         <div class="container">
@@ -35,6 +35,6 @@
         </div>
          <div id="fb-root"></div>
          <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-         <script src="script.js"></script>
+         <script src="assets/js/script.js"></script>
     </body>
 </html>

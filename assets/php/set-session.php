@@ -1,5 +1,5 @@
 <?php
-require_once 'facebook-sdk/facebook.php';
+require_once '../facebook-sdk/facebook.php';
 header('Content-Type: application/json');
 
 if ( isset($_GET['accessToken']) && !empty($_GET['accessToken']) ) {

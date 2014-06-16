@@ -23,8 +23,8 @@ $(document).ready(function() {
             if (r.authResponse) {
                 var accessToken = r.authResponse.accessToken;
                 $.ajax({ 
-                    type     : "GET",
-                    url      : "set-session.php",
+                    type     : 'GET',
+                    url      : 'assets/php/set-session.php',
                     data     : { accessToken : accessToken },
       	            datatype : 'json',
                     success  : function(user) {
